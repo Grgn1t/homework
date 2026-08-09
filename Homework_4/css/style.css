@@ -1,0 +1,72 @@
+#name {
+   display: block; 
+   margin: 0px 0px 10px 0px;
+   width: 225px;
+}
+
+#age {
+   display: block; 
+   margin: 0px 0px 10px 0px;
+   width: 225px;
+}
+
+#tel {
+   display: block; 
+   margin: 0px 0px 10px 0px;
+   width: 225px;
+}
+
+#email {
+   display: block; 
+   width: 225px;
+}
+
+#message {
+   display: block; 
+   margin: 0px 0px 10px 0px;
+   width: 225px;
+   min-height: 50px;
+   max-height: 300px;
+   resize: vertical;
+   font-family: sans-serif;
+}
+
+#rules {
+   display: inline; 
+   margin: 10px 10px 10px 0px;
+   cursor: pointer;
+}
+
+.form {
+   width: 300px;
+   display: inline-block;
+   font-family: sans-serif;
+}
+
+.form1{
+   border-width: 0px;
+}
+
+.form2{
+   border-width: 0px;
+}
+
+.button{
+   margin: 0px 0px 10px 15px;
+}
+
+.block {
+   width: 300px;
+   height: min-content;
+   color:#fff;
+   background: #616161;
+   border: 2px solid #000000;
+   border-radius: 8px;
+   margin: 20px 20px;
+   padding-top: 20px;
+}
+
+.legend{
+   font-weight: 700;
+   margin: 0px 0px 0px -2px;
+}
