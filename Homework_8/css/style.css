@@ -1,0 +1,146 @@
+body { 
+   font-family: sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+#name {
+   margin: 5px 0px 10px 0px;
+   width: 100%;
+}
+
+#name:focus-visible {
+   outline: 2px solid #888eff;
+   outline-offset: 1px;
+}
+
+#age {
+   
+   margin: 5px 0px 10px 0px;
+   width: 100%;
+}
+
+#age:focus-visible {
+   outline: 2px solid #888eff;
+   outline-offset: 1px;
+}
+
+#tel {
+   display: block; 
+   margin: 5px 0px 10px 0px;
+   width: 100%;
+}
+
+#tel:focus-visible {
+   outline: 2px solid #888eff;
+   outline-offset: 1px;
+}
+
+#email {
+   display: block; 
+   width: 100%;
+}
+
+#email:focus-visible {
+   outline: 2px solid #888eff;
+   outline-offset: 1px;
+}
+
+#message {
+   display: block; 
+   width: 100%;
+   margin: 0px 0px 10px 0px;
+   min-height: 50px;
+   max-height: 300px;
+   resize: vertical;
+}
+
+#message:focus-visible {
+   outline: 2px solid #888eff;
+   outline-offset: 1px;
+}
+
+#rules {
+   display: inline; 
+   margin: 10px 10px 0px 0px;
+   cursor: pointer;
+   appearance: none;
+   outline: none;
+   padding-left: 18px;
+}
+
+#rules::after {
+   content: "";
+   position: absolute;
+   margin-left: -18px;
+   width: 16px;
+   height: 16px;
+   border: 1px solid #888eff;
+   border-radius: 4px;
+}
+
+#rules:checked::after {
+   background: url(../images/check-icon.svg) no-repeat center, #888eff;
+}
+
+#rules:focus-visible {
+   outline: 2px solid #888eff;
+   outline-offset: 1px;
+   border-radius: 4px;
+}
+
+.form {
+   display: inline-block;
+}
+
+
+.form1{
+   border-width: 0px;
+}
+
+.form2{
+   border-width: 0px;
+}
+
+.button{
+   margin: 0px 0px 10px 15px;
+   background-color: #aab6ff;
+   cursor: pointer;
+   transition: opacity 0.3s;
+}
+
+.button:focus-visible {
+   outline: 2px solid #888eff;
+   outline-offset: 1px;
+}   
+
+.button:hover {
+   opacity: 0.8;
+}
+
+.button:active {
+   background-color: #8994e1;
+}
+
+.block {
+   max-width: 400px;
+   width: 100%;
+   height: min-content;
+   color:#000000;
+   background: #d5daff;
+   border: 2px solid #888eff;
+   border-radius: 8px;
+   margin: 20px 20px;
+   padding: 20px 15px 10px;
+}
+
+.legend{
+   font-weight: 700;
+   margin: 0px 0px 0px -2px;
+}
